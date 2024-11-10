@@ -17,3 +17,5 @@ jobs:
           go mod download
       - name: Build
         run: make build
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
