@@ -2,7 +2,6 @@
 set -eo pipefail
 [[ $DOKKU_TRACE ]] && set -x
 
-echo "$(dirname $0)"
 cd "$(dirname "$0")"
 
 # PLUGIN_ENV = dev when testing in local docker image
